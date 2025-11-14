@@ -1,0 +1,575 @@
+{
+  "generated_on": "2025-11-14",
+  "soil_data": [
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pH_estimate": 7.8,
+      "pH_range": [
+        7.4,
+        8.4
+      ],
+      "confidence": "high"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pH_estimate": 7.5,
+      "pH_range": [
+        6.8,
+        8.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pH_estimate": 7.0,
+      "pH_range": [
+        6.5,
+        7.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pH_estimate": 5.5,
+      "pH_range": [
+        5.0,
+        6.2
+      ],
+      "confidence": "high"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.0,
+      "pH_range": [
+        5.5,
+        7.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pH_estimate": 7.9,
+      "pH_range": [
+        7.5,
+        8.3
+      ],
+      "confidence": "high"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pH_estimate": 6.8,
+      "pH_range": [
+        6.2,
+        7.5
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pH_estimate": 8.2,
+      "pH_range": [
+        7.8,
+        8.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Surat",
+      "state": "Gujarat",
+      "pH_estimate": 7.6,
+      "pH_range": [
+        7.2,
+        8.2
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "pH_estimate": 8.3,
+      "pH_range": [
+        7.8,
+        9.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 8.0,
+      "pH_range": [
+        7.4,
+        8.6
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 8.1,
+      "pH_range": [
+        7.6,
+        8.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "pH_estimate": 7.3,
+      "pH_range": [
+        6.8,
+        7.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.5,
+      "pH_range": [
+        7.0,
+        8.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 6.9,
+      "pH_range": [
+        6.4,
+        7.6
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Patna",
+      "state": "Bihar",
+      "pH_estimate": 7.8,
+      "pH_range": [
+        7.2,
+        8.4
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 6.5,
+      "pH_range": [
+        6.0,
+        7.2
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Kochi",
+      "state": "Kerala",
+      "pH_estimate": 6.2,
+      "pH_range": [
+        5.6,
+        6.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "pH_estimate": 6.1,
+      "pH_range": [
+        5.6,
+        6.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "pH_estimate": 7.5,
+      "pH_range": [
+        7.0,
+        8.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.8,
+      "pH_range": [
+        6.2,
+        7.4
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "pH_estimate": 5.9,
+      "pH_range": [
+        5.2,
+        6.6
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "pH_estimate": 5.6,
+      "pH_range": [
+        4.8,
+        6.4
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.3,
+      "pH_range": [
+        5.8,
+        7.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 8.1,
+      "pH_range": [
+        6.9,
+        9.5
+      ],
+      "confidence": "high"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 8.0,
+      "pH_range": [
+        7.5,
+        8.6
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "pH_estimate": 8.3,
+      "pH_range": [
+        7.8,
+        8.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Amritsar",
+      "state": "Punjab",
+      "pH_estimate": 8.1,
+      "pH_range": [
+        7.6,
+        8.6
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "pH_estimate": 8.6,
+      "pH_range": [
+        8.0,
+        9.2
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "pH_estimate": 6.8,
+      "pH_range": [
+        6.2,
+        7.4
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Madurai",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.0,
+      "pH_range": [
+        5.4,
+        6.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Mysuru",
+      "state": "Karnataka",
+      "pH_estimate": 5.6,
+      "pH_range": [
+        5.0,
+        6.4
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.2,
+      "pH_range": [
+        5.6,
+        7.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 7.0,
+      "pH_range": [
+        6.4,
+        7.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 8.0,
+      "pH_range": [
+        7.5,
+        8.6
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "pH_estimate": 6.7,
+      "pH_range": [
+        6.2,
+        7.4
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Faridabad",
+      "state": "Haryana",
+      "pH_estimate": 8.2,
+      "pH_range": [
+        7.8,
+        8.9
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 8.1,
+      "pH_range": [
+        7.6,
+        8.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 8.0,
+      "pH_range": [
+        7.4,
+        8.6
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Gurugram",
+      "state": "Haryana",
+      "pH_estimate": 8.2,
+      "pH_range": [
+        7.7,
+        8.9
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "pH_estimate": 7.7,
+      "pH_range": [
+        7.2,
+        8.3
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Rajkot",
+      "state": "Gujarat",
+      "pH_estimate": 7.8,
+      "pH_range": [
+        7.3,
+        8.4
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Aurangabad",
+      "state": "Maharashtra",
+      "pH_estimate": 7.4,
+      "pH_range": [
+        6.9,
+        8.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Solapur",
+      "state": "Maharashtra",
+      "pH_estimate": 7.6,
+      "pH_range": [
+        7.0,
+        8.2
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.9,
+      "pH_range": [
+        7.4,
+        8.5
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.8,
+      "pH_range": [
+        7.3,
+        8.5
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "pH_estimate": 7.5,
+      "pH_range": [
+        7.0,
+        8.2
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Shimla",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.3,
+      "pH_range": [
+        5.6,
+        7.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Srinagar",
+      "state": "Jammu & Kashmir",
+      "pH_estimate": 6.8,
+      "pH_range": [
+        6.2,
+        7.4
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Jammu",
+      "state": "Jammu & Kashmir",
+      "pH_estimate": 7.6,
+      "pH_range": [
+        7.0,
+        8.2
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Agartala",
+      "state": "Tripura",
+      "pH_estimate": 5.4,
+      "pH_range": [
+        4.8,
+        6.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Aizawl",
+      "state": "Mizoram",
+      "pH_estimate": 5.2,
+      "pH_range": [
+        4.6,
+        5.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Imphal",
+      "state": "Manipur",
+      "pH_estimate": 5.5,
+      "pH_range": [
+        4.9,
+        6.2
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "pH_estimate": 5.1,
+      "pH_range": [
+        4.5,
+        5.8
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Kohima",
+      "state": "Nagaland",
+      "pH_estimate": 5.0,
+      "pH_range": [
+        4.5,
+        5.6
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Port Blair",
+      "state": "Andaman & Nicobar",
+      "pH_estimate": 6.4,
+      "pH_range": [
+        5.8,
+        7.0
+      ],
+      "confidence": "medium"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "pH_estimate": 6.8,
+      "pH_range": [
+        6.2,
+        7.5
+      ],
+      "confidence": "medium"
+    }
+  ]
+}
