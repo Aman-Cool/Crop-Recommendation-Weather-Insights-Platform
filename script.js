@@ -1,279 +1,180 @@
-/* ------------------------------------------------------
-   CROP DATABASE
------------------------------------------------------- */
-const cropDatabase = [
-    {
-        name: 'Rice',
-        minRainfall: 1000,
-        maxRainfall: 2500,
-        minPH: 5.5,
-        maxPH: 7.0,
-        soilTypes: ['clayey', 'loamy'],
-        season: 'Kharif',
-        icon: '🌾'
-    },
-    {
-        name: 'Wheat',
-        minRainfall: 300,
-        maxRainfall: 1000,
-        minPH: 6.0,
-        maxPH: 7.5,
-        soilTypes: ['loamy', 'clayey'],
-        season: 'Rabi',
-        icon: '🌾'
-    },
-    {
-        name: 'Cotton',
-        minRainfall: 500,
-        maxRainfall: 1200,
-        minPH: 5.5,
-        maxPH: 8.0,
-        soilTypes: ['black', 'loamy'],
-        season: 'Kharif',
-        icon: '🌱'
-    },
-    {
-        name: 'Sugarcane',
-        minRainfall: 750,
-        maxRainfall: 1500,
-        minPH: 6.0,
-        maxPH: 7.5,
-        soilTypes: ['loamy', 'clayey'],
-        season: 'Year-round',
-        icon: '🎋'
-    },
-    {
-        name: 'Maize',
-        minRainfall: 500,
-        maxRainfall: 1000,
-        minPH: 5.5,
-        maxPH: 7.5,
-        soilTypes: ['loamy', 'sandy'],
-        season: 'Kharif/Rabi',
-        icon: '🌽'
-    },
-    {
-        name: 'Groundnut',
-        minRainfall: 500,
-        maxRainfall: 1250,
-        minPH: 6.0,
-        maxPH: 7.0,
-        soilTypes: ['sandy', 'loamy'],
-        season: 'Kharif',
-        icon: '🥜'
-    },
-    {
-        name: 'Soybean',
-        minRainfall: 450,
-        maxRainfall: 1000,
-        minPH: 6.0,
-        maxPH: 7.5,
-        soilTypes: ['loamy', 'black'],
-        season: 'Kharif',
-        icon: '🫘'
-    },
-    {
-        name: 'Potato',
-        minRainfall: 500,
-        maxRainfall: 700,
-        minPH: 5.0,
-        maxPH: 6.5,
-        soilTypes: ['loamy', 'sandy'],
-        season: 'Rabi',
-        icon: '🥔'
-    },
-    {
-        name: 'Tomato',
-        minRainfall: 400,
-        maxRainfall: 650,
-        minPH: 6.0,
-        maxPH: 7.0,
-        soilTypes: ['loamy', 'sandy'],
-        season: 'Year-round',
-        icon: '🍅'
-    },
-    {
-        name: 'Onion',
-        minRainfall: 350,
-        maxRainfall: 650,
-        minPH: 6.0,
-        maxPH: 7.5,
-        soilTypes: ['loamy', 'sandy'],
-        season: 'Rabi',
-        icon: '🧅'
-    }
-];
+// ====================================================
+//  SEARCH CITY → WEATHER → SOIL → CROP LOGIC
+// ====================================================
 
-let weatherData = null;
+document.getElementById("searchBtn").addEventListener("click", searchCity);
 
-/* ------------------------------------------------------
-   FETCH WEATHER DATA
------------------------------------------------------- */
-async function searchLocation() {
-    const loc = document.getElementById("locationInput").value.trim();
-    if (!loc) {
-        alert("Please enter a location");
-        return;
-    }
+async function searchCity() {
+  const city = document.getElementById("cityInput").value.trim();
 
-    document.getElementById("weatherBox").innerHTML = "Loading weather data...";
+  if (!city) {
+    alert("Enter a city name");
+    return;
+  }
 
-    try {
-        // Get geocoding data
-        const geoResponse = await fetch(
-            `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(loc)}&count=1`
-        );
-        const geo = await geoResponse.json();
+  // 1️⃣ GET COORDINATES
+  const coords = await getCoordinates(city);
+  if (!coords) {
+    alert("City not found");
+    return;
+  }
+  const { lat, lon } = coords;
+  console.log("Coordinates:", lat, lon);
 
-        if (!geo.results || geo.results.length === 0) {
-            throw new Error("Location not found. Please try another city name.");
-        }
+  // 2️⃣ GET WEATHER
+  const weather = await getWeather(lat, lon);
+  console.log("Weather:", weather);
 
-        const { latitude, longitude, name, country } = geo.results[0];
+  // 3️⃣ GET SOIL PH (LOCAL JSON)
+  const soil = await getSoilPH(city);
+  console.log("Soil PH Data:", soil);
 
-        // Get weather data
-        const weatherResponse = await fetch(
-            `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,precipitation&daily=precipitation_sum,temperature_2m_max,temperature_2m_min&timezone=auto&past_days=365`
-        );
-        const weather = await weatherResponse.json();
+  // 4️⃣ RECOMMEND CROP
+  const crop = recommendCrop(weather.temperature, weather.rainfall, soil?.ph);
+  console.log("Crop:", crop);
 
-        // Calculate annual rainfall (sum of past 365 days)
-        const annualRain = weather.daily.precipitation_sum
-            .slice(0, 365)
-            .reduce((sum, val) => sum + (val || 0), 0);
-
-        // Calculate average temperature (last 30 days)
-        const avgTemp = weather.daily.temperature_2m_max
-            .slice(0, 30)
-            .reduce((sum, val) => sum + (val || 0), 0) / 30;
-
-        weatherData = {
-            location: name,
-            country,
-            annualRainfall: Math.round(annualRain),
-            temperature: Math.round(weather.current.temperature_2m),
-            humidity: weather.current.relative_humidity_2m,
-            avgTemp: Math.round(avgTemp)
-        };
-
-        showWeather();
-        calculateRecommendations();
-
-    } catch (err) {
-        document.getElementById("weatherBox").innerHTML = 
-            `<span style="color: red;">Error: ${err.message}</span>`;
-        console.error("Weather fetch error:", err);
-    }
+  // 5️⃣ UPDATE UI
+  updateWeatherUI(weather);
+  updateSoilUI(soil);
+  updateCropUI(crop);
 }
 
-/* ------------------------------------------------------
-   DISPLAY WEATHER DATA
------------------------------------------------------- */
-function showWeather() {
-    document.getElementById("weatherBox").innerHTML = `
-        <b style="font-size: 18px; color: #1b5e20;">${weatherData.location}, ${weatherData.country}</b><br><br>
-        <b>Annual Rainfall:</b> ${weatherData.annualRainfall} mm<br>
-        <b>Average Temperature:</b> ${weatherData.avgTemp}°C<br>
-        <b>Current Temperature:</b> ${weatherData.temperature}°C<br>
-        <b>Humidity:</b> ${weatherData.humidity}%
-    `;
 
-    drawChart();
-}
 
-/* ------------------------------------------------------
-   CALCULATE CROP RECOMMENDATIONS
------------------------------------------------------- */
-function calculateRecommendations() {
-    const soil = {
-        ph: parseFloat(document.getElementById("phInput").value),
-        type: document.getElementById("soilTypeInput").value,
-        nitrogen: parseFloat(document.getElementById("nitrogenInput").value),
-        phosphorus: parseFloat(document.getElementById("phosphorusInput").value),
-        potassium: parseFloat(document.getElementById("potassiumInput").value)
+// ====================================================
+//  1. GET COORDINATES (CITY → LAT/LON)
+// ====================================================
+
+async function getCoordinates(city) {
+  const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}`;
+
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+
+    if (!data.results || data.results.length === 0) return null;
+
+    return {
+      lat: data.results[0].latitude,
+      lon: data.results[0].longitude,
     };
 
-    // Filter crops based on rainfall, pH, and soil type
-    const suitable = cropDatabase.filter(crop => 
-        weatherData.annualRainfall >= crop.minRainfall &&
-        weatherData.annualRainfall <= crop.maxRainfall &&
-        soil.ph >= crop.minPH &&
-        soil.ph <= crop.maxPH &&
-        crop.soilTypes.includes(soil.type)
+  } catch (err) {
+    console.error("Coordinate Error:", err);
+    return null;
+  }
+}
+
+
+
+// ====================================================
+//  2. GET WEATHER
+// ====================================================
+
+async function getWeather(lat, lon) {
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m&hourly=precipitation`;
+
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+
+    return {
+      temperature: data.current.temperature_2m,
+      humidity: data.current.relative_humidity_2m,
+      rainfall: data.hourly.precipitation[0] || 0,
+    };
+
+  } catch (err) {
+    console.error("Weather Error:", err);
+    return null;
+  }
+}
+
+
+
+// ====================================================
+//  3. GET SOIL PH (FROM LOCAL JSON FILE)
+// ====================================================
+
+async function getSoilPH(city) {
+  try {
+    const res = await fetch("./india_soil_ph_data.json");
+    const json = await res.json();
+
+    const key = city.trim().toLowerCase();
+
+    const match = json.soil_data.find(
+      (item) => item.city.toLowerCase() === key
     );
 
-    let html = "";
-    
-    if (suitable.length > 0) {
-        suitable.forEach(crop => {
-            html += `
-                <div class="crop-card">
-                    <b>${crop.icon} ${crop.name}</b><br>
-                    <b>Season:</b> ${crop.season}<br>
-                    <b>Rainfall Range:</b> ${crop.minRainfall}-${crop.maxRainfall} mm<br>
-                    <b>pH Range:</b> ${crop.minPH}-${crop.maxPH}<br>
-                    <b>Suitable Soil:</b> ${crop.soilTypes.join(", ")}
-                </div>
-            `;
-        });
-    } else {
-        html = `<p style="color: #d32f2f; font-weight: 600;">
-            No suitable crops found for the current conditions. Try adjusting soil parameters or searching a different location.
-        </p>`;
-    }
+    if (!match) return null;
 
-    document.getElementById("recommendationsBox").innerHTML = html;
+    return {
+      ph: match.pH_estimate,
+      range: match.pH_range,
+      confidence: match.confidence,
+    };
+
+  } catch (err) {
+    console.error("Soil pH Error:", err);
+    return null;
+  }
 }
 
-/* ------------------------------------------------------
-   DRAW SIMPLE CHART
------------------------------------------------------- */
-function drawChart() {
-    const canvas = document.getElementById("chart1");
-    const ctx = canvas.getContext("2d");
 
-    // Set canvas size
-    canvas.width = canvas.offsetWidth;
-    canvas.height = 200;
 
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+// ====================================================
+//  4. SIMPLE CROP RECOMMENDATION LOGIC
+// ====================================================
 
-    // Data values (scaled for visualization)
-    const values = [
-        weatherData.annualRainfall / 20,
-        weatherData.avgTemp * 2,
-        weatherData.humidity
-    ];
+function recommendCrop(temp, rainfall, ph) {
+  if (!ph) return "No soil data available";
 
-    const labels = ["Rainfall", "Avg Temp", "Humidity"];
-    const colors = ["#4CAF50", "#2196F3", "#FF9800"];
+  if (ph < 6) {
+    if (rainfall > 20) return "Rice";
+    return "Millets";
+  }
 
-    const barWidth = 60;
-    const gap = 40;
-    let x = 40;
+  if (ph >= 6 && ph <= 7.5) {
+    if (temp > 30) return "Sugarcane";
+    return "Wheat";
+  }
 
-    // Draw bars
-    values.forEach((value, index) => {
-        ctx.fillStyle = colors[index];
-        ctx.fillRect(x, 180 - value, barWidth, value);
+  if (ph > 7.5) return "Cotton";
 
-        // Draw labels
-        ctx.fillStyle = "#333";
-        ctx.font = "bold 12px Arial";
-        ctx.textAlign = "center";
-        ctx.fillText(labels[index], x + barWidth / 2, 195);
-
-        x += barWidth + gap;
-    });
+  return "Maize";
 }
 
-/* ------------------------------------------------------
-   ALLOW ENTER KEY TO SEARCH
------------------------------------------------------- */
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('locationInput').addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-            searchLocation();
-        }
-    });
-});
+
+
+// ====================================================
+//  5. UPDATE UI SECTIONS
+// ====================================================
+
+function updateWeatherUI(weather) {
+  document.querySelector(".details p:nth-child(1) span").textContent =
+    weather.temperature;
+  document.querySelector(".details p:nth-child(2) span").textContent =
+    weather.humidity;
+  document.querySelector(".details p:nth-child(3) span").textContent =
+    weather.rainfall;
+}
+
+function updateSoilUI(soil) {
+  if (!soil) {
+    document.querySelector(".soil-details").innerHTML =
+      `<p>No soil data found</p>`;
+    return;
+  }
+
+  document.querySelector(".soil-details").innerHTML = `
+    <p>Soil pH: <span>${soil.ph}</span></p>
+    <p>Range: <span>${soil.range[0]} - ${soil.range[1]}</span></p>
+    <p>Confidence: <span>${soil.confidence}</span></p>
+  `;
+}
+
+function updateCropUI(crop) {
+  document.querySelector(".crop-recommendation").textContent =
+    `Recommended Crop: ${crop}`;
+}
