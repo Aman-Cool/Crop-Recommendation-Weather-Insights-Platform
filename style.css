@@ -144,3 +144,26 @@ ul {
   align-items: center;
   margin-top: 80px;
 }
+.soil{
+   border: 2px solid rgb(90, 177, 93);
+  height: 530px;
+  width: 220px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.soil-details{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(41, 99, 38);
+  border-radius: 10px;
+  padding: 8px;
+  height: 40%;
+  width: 40%;
+  text-align: center;
+  color: #f2f2f2;
+  align-items: center;
+  margin-top: 80px;
+}
