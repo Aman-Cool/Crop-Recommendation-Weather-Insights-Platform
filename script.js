@@ -29,14 +29,17 @@ async function searchCity() {
   const soil = await getSoilPH(city);
   console.log("Soil PH Data:", soil);
 
-  // 4️⃣ RECOMMEND CROP
-  const crop = recommendCrop(weather.temperature, weather.rainfall, soil?.ph);
-  console.log("Crop:", crop);
+ const cropList  = recommendCrop(
+  weather.temperature,
+  weather.humidity,
+  weather.rainfall,
+  soil?.ph
+);
 
   // 5️⃣ UPDATE UI
   updateWeatherUI(weather);
   updateSoilUI(soil);
-  updateCropUI(crop);
+  updateCropUI(cropList);
 }
 
 
@@ -127,23 +130,6 @@ async function getSoilPH(city) {
 //  4. SIMPLE CROP RECOMMENDATION LOGIC
 // ====================================================
 
-function recommendCrop(temp, rainfall, ph) {
-  if (!ph) return "No soil data available";
-
-  if (ph < 6) {
-    if (rainfall > 20) return "Rice";
-    return "Millets";
-  }
-
-  if (ph >= 6 && ph <= 7.5) {
-    if (temp > 30) return "Sugarcane";
-    return "Wheat";
-  }
-
-  if (ph > 7.5) return "Cotton";
-
-  return "Maize";
-}
 
 
 
@@ -172,9 +158,62 @@ function updateSoilUI(soil) {
     <p>Range: <span>${soil.range[0]} - ${soil.range[1]}</span></p>
     <p>Confidence: <span>${soil.confidence}</span></p>
   `;
-}
+}// ...existing code...
+function updateCropUI(crops) {
+  const container = document.querySelector(".crop-recommendation");
 
-function updateCropUI(crop) {
-  document.querySelector(".crop-recommendation").textContent =
-    `Recommended Crop: ${crop}`;
+  function emojiFor(crop) {
+    const key = (crop || "").toLowerCase();
+    const map = {
+      rice: "🌾",
+      wheat: "🌾",
+      maize: "🌽",
+      corn: "🌽",
+      millet: "🌿",
+      barley: "🌱",
+      cotton: "🧶",
+      mustard: "🌻",
+      sugarcane: "🍃",
+      potato: "🥔",
+      tomato: "🍅",
+      onion: "🧅",
+      banana: "🍌",
+      mango: "🥭",
+      tea: "🍵",
+      coffee: "☕",
+      soybean: "🌱",
+      lentil: "🥣",
+      chickpea: "🥗",
+      default: "🌾"
+    };
+    return map[key] || map.default;
+  }
+
+  if (!Array.isArray(crops)) {
+    container.innerHTML = `
+      <div class="crop-card single">
+        <h3>Recommended Crop</h3>
+        <div class="crop-item">
+          <span class="emoji">${emojiFor(crops)}</span>
+          <span class="name">${crops}</span>
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="crop-card">
+      <h3>Top ${crops.length} Recommended Crops</h3>
+      <ol class="crop-list">
+        ${crops.map(crop => `
+          <li class="crop-item">
+            <span class="emoji">${emojiFor(crop)}</span>
+            <span class="name">${crop}</span>
+          </li>
+        `).join("")}
+      </ol>
+    </div>
+  `;
 }
+// ...existing code...
