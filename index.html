@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <link rel="stylesheet" href="style.css" />
+
+
 </head>
 
 <body>
@@ -18,7 +20,7 @@
         <button id="searchBtn">Search</button>
       </div>
       <div class="search-bottom">
-        <div class="weather">
+        <div class="soil">
           <div class="weather-head">
             <h2>Weather</h2>
           </div>
@@ -39,12 +41,17 @@
       <div class="rainfall-chart"></div>
       <div class="ph-graph"></div>
     </div>
-    <div class="crop-recommendation">hi</div>
+   <!-- ...existing code... -->
+    <div class="crop-recommendation" role="region" aria-label="Crop recommendations">
+      <div class="placeholder">No recommendation yet. Search a city to get started.</div>
+    </div>
 
   </div>
 
-
+  <script src="cropLogic.js"></script>
   <script src="script.js"></script>
+
 </body>
 
 </html>
+<!-- ...existing code... -->
