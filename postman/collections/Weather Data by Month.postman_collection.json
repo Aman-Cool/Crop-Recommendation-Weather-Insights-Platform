@@ -1,0 +1,156 @@
+{
+  "info": {
+    "_postman_id": "63d2badf-ecba-4186-8f1f-6823f012012f",
+    "name": "Weather Data by Month",
+    "description": "Collection for fetching precipitation data from Open-Meteo API organized by month",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50077731",
+    "_collection_link": "https://omplayz4456-559628.postman.co/workspace/5668f02c-7fea-42c4-8d69-000812e3397b/collection/50077731-63d2badf-ecba-4186-8f1f-6823f012012f?action=share&source=collection_link&creator=50077731"
+  },
+  "item": [
+    {
+      "name": "Get Precipitation Data - March 2024",
+      "id": "60ab0ced-fd21-4c90-8dff-23dcd487cffb",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=precipitation&timezone=auto&start_date=2024-03-01&end_date=2024-03-31",
+          "protocol": "https",
+          "host": [
+            "api",
+            "open-meteo",
+            "com"
+          ],
+          "path": [
+            "v1",
+            "forecast"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "52.52"
+            },
+            {
+              "key": "longitude",
+              "value": "13.41"
+            },
+            {
+              "key": "hourly",
+              "value": "precipitation"
+            },
+            {
+              "key": "timezone",
+              "value": "auto"
+            },
+            {
+              "key": "start_date",
+              "value": "2024-03-01"
+            },
+            {
+              "key": "end_date",
+              "value": "2024-03-31"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Precipitation Data - February 2024",
+      "id": "819bce3a-ea1d-46ea-9fe4-9195b1b4764d",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=precipitation&timezone=auto&start_date=2024-02-01&end_date=2024-02-29",
+          "protocol": "https",
+          "host": [
+            "api",
+            "open-meteo",
+            "com"
+          ],
+          "path": [
+            "v1",
+            "forecast"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "52.52"
+            },
+            {
+              "key": "longitude",
+              "value": "13.41"
+            },
+            {
+              "key": "hourly",
+              "value": "precipitation"
+            },
+            {
+              "key": "timezone",
+              "value": "auto"
+            },
+            {
+              "key": "start_date",
+              "value": "2024-02-01"
+            },
+            {
+              "key": "end_date",
+              "value": "2024-02-29"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Precipitation Data - January 2024",
+      "id": "a1888134-d58a-43d7-98d6-04da118fb0c9",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=precipitation&timezone=auto&start_date=2024-01-01&end_date=2024-01-31",
+          "protocol": "https",
+          "host": [
+            "api",
+            "open-meteo",
+            "com"
+          ],
+          "path": [
+            "v1",
+            "forecast"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "52.52"
+            },
+            {
+              "key": "longitude",
+              "value": "13.41"
+            },
+            {
+              "key": "hourly",
+              "value": "precipitation"
+            },
+            {
+              "key": "timezone",
+              "value": "auto"
+            },
+            {
+              "key": "start_date",
+              "value": "2024-01-01"
+            },
+            {
+              "key": "end_date",
+              "value": "2024-01-31"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

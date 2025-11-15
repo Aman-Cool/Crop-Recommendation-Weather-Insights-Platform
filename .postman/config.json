@@ -1,0 +1,14 @@
+{
+  "workspace": {
+    "id": "5668f02c-7fea-42c4-8d69-000812e3397b"
+  },
+  "entities": {
+    "collections": [
+      "..\\postman\\collections\\Weather Data by Month.postman_collection.json"
+    ],
+    "environments": [],
+    "specs": [],
+    "flows": [],
+    "globals": []
+  }
+}

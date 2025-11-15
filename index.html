@@ -4,10 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Crop Recommendation System</title>
   <link rel="stylesheet" href="style.css" />
-
-
 </head>
 
 <body>
@@ -38,20 +36,20 @@
       </div>
     </div>
     <div class="graph-container">
-      <div class="rainfall-chart"></div>
       <div class="ph-graph"></div>
+      <div class="rainfall-chart"></div>
     </div>
-   <!-- ...existing code... -->
     <div class="crop-recommendation" role="region" aria-label="Crop recommendations">
       <div class="placeholder">No recommendation yet. Search a city to get started.</div>
     </div>
-
   </div>
 
+  <!-- Load Chart.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  
   <script src="cropLogic.js"></script>
-  <script src="script.js"></script>
+  <script src="script.js">console.log(averagerainfall)</script>
 
 </body>
 
 </html>
-<!-- ...existing code... -->

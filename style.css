@@ -7,7 +7,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: rgb(0, 0, 0);
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 a {
   color: inherit;
@@ -25,7 +25,7 @@ ul {
 }
 
 .landing-page {
-  height: 100vh;
+  min-height: calc(100vh - 100px);
   width: 100vw;
   display: flex;
   gap: 10px;
@@ -33,7 +33,7 @@ ul {
 }
 .search-container {
   overflow: hidden;
-  height: 90%;
+  height: fit-content;
   width: 30%;
   border-radius: 10px;
   border: 2px solid rgb(90, 177, 93);
@@ -44,16 +44,46 @@ ul {
   font-size: larger;
   color: rgb(55, 103, 57);
 }
+
+/* GRAPH CONTAINER STYLES */
 .graph-container {
-  height: 90%;
+  height: fit-content;
   width: 50%;
   border-radius: 10px;
   border: 2px solid rgb(90, 177, 93);
-}/* ...existing code... */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  background-color: #f9fff9;
+}
+
+.rainfall-chart,
+.ph-graph {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  min-height: 350px;
+}
+
+.rainfall-chart canvas,
+.ph-graph canvas {
+  max-height: 320px !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* CROP RECOMMENDATION STYLES */
 .crop-recommendation {
   margin: 28px;
   padding: 28px;
-  height: 85%;
+  height: fit-content;
   max-width: 980px;
   background: linear-gradient(180deg, #ffffff, #f6fff8);
   border: 2px solid rgb(90, 177, 93);
@@ -76,7 +106,7 @@ ul {
   padding: 22px 24px;
   height: 100%;
   border-radius: 12px;
-  background-color: #26a759; /* dark card base */
+  background-color: #26a759;
   color: #e6f6ea;
 }
 
@@ -95,8 +125,6 @@ ul {
   gap: 16px;
 }
 
-/* Much darker card backgrounds for each crop item.
-   Before: deep green gradient; After hover: near-black green with stronger shadow */
 .crop-list .crop-item {
   display: flex;
   align-items: center;
@@ -104,13 +132,13 @@ ul {
   padding: 18px;
   border-radius: 12px;
   transition: background .12s ease, transform .12s ease, box-shadow .12s ease;
-  background: linear-gradient(180deg,#0b3b2c 0%, #06291c 100%); /* much darker */
+  background: linear-gradient(180deg,#0b3b2c 0%, #06291c 100%);
   color: #e6f6ea;
   border: 1px solid rgba(0,0,0,0.15);
 }
 
 .crop-list .crop-item:hover {
-  background: linear-gradient(180deg,#041814 0%, #02110b 100%); /* very dark on hover */
+  background: linear-gradient(180deg,#041814 0%, #02110b 100%);
   transform: translateY(-6px);
   box-shadow: 0 18px 40px rgba(2,8,4,0.6);
 }
@@ -130,12 +158,11 @@ ul {
   text-overflow: ellipsis;
 }
 
-/* single recommended crop layout (bigger) */
+/* single recommended crop layout */
 .crop-card.single {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
 }
 
 .crop-card.single .crop-item {
@@ -144,16 +171,7 @@ ul {
   padding: 20px;
 }
 
-/* responsive adjustments */
-@media (max-width: 720px) {
-  .crop-recommendation { margin: 16px; padding: 18px; min-height: 260px; }
-  .crop-list .crop-item { padding: 12px; gap: 12px; border-radius: 10px; }
-  .crop-item .emoji { width: 44px; font-size: 2.1rem; }
-  .crop-item .name { font-size: 1.12rem; }
-}
-
-/* ...existing code... */
-/* ...existing code... */
+/* SEARCH BOX STYLES */
 .search-box {
   display: flex;
   align-items: center;
@@ -200,11 +218,13 @@ ul {
 .search-box button:active {
   transform: scale(0.95);
 }
+
 .search-bottom {
   margin-top: 30px;
   display: flex;
   gap: 10px;
 }
+
 .search-bottom .weather {
   border: 2px solid rgb(90, 177, 93);
   height: 530px;
@@ -215,6 +235,7 @@ ul {
   align-items: center;
   padding-top: 10px;
 }
+
 .search-bottom .soil {
   border: 2px solid rgb(90, 177, 93);
   height: 530px;
@@ -224,6 +245,7 @@ ul {
   justify-content: center;
   padding-top: 10px;
 }
+
 .details {
   display: flex;
   flex-direction: column;
@@ -236,8 +258,9 @@ ul {
   align-items: center;
   margin-top: 80px;
 }
-.soil{
-   border: 2px solid rgb(90, 177, 93);
+
+.soil {
+  border: 2px solid rgb(90, 177, 93);
   height: 530px;
   width: 220px;
   border-radius: 10px;
@@ -246,7 +269,7 @@ ul {
   align-items: center;
 }
 
-.soil-details{
+.soil-details {
   display: flex;
   flex-direction: column;
   background-color: rgb(41, 99, 38);
@@ -258,4 +281,25 @@ ul {
   color: #f2f2f2;
   align-items: center;
   margin-top: 80px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 720px) {
+  .crop-recommendation { 
+    margin: 16px; 
+    padding: 18px; 
+    min-height: 260px; 
+  }
+  .crop-list .crop-item { 
+    padding: 12px; 
+    gap: 12px; 
+    border-radius: 10px; 
+  }
+  .crop-item .emoji { 
+    width: 44px; 
+    font-size: 2.1rem; 
+  }
+  .crop-item .name { 
+    font-size: 1.12rem; 
+  }
 }
