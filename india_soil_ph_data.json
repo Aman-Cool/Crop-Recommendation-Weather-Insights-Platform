@@ -671,6 +671,2281 @@
       "pH_estimate": 7.0,
       "pH_range": [6.6, 7.4],
       "confidence": "Medium"
+    },
+    {
+      "city": "Moradabad",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Saharanpur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mathura",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Firozabad",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Muzaffarnagar",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rampur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Shahjahanpur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Farrukhabad",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hapur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Etawah",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mirzapur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sambhal",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Amroha",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hardoi",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Fatehpur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Raebareli",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Orai",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bahraich",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Unnao",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rae Bareli",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Lakhimpur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sitapur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Banda",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Pilibhit",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Barabanki",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Khurja",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Gonda",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mainpuri",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Lalitpur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Etah",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Deoria",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ballia",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ghazipur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jaunpur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Azamgarh",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mau",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Basti",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sultanpur",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Faizabad",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ayodhya",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hathras",
+      "state": "Uttar Pradesh",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hisar",
+      "state": "Haryana",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Karnal",
+      "state": "Haryana",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "High"
+    },
+    {
+      "city": "Sonipat",
+      "state": "Haryana",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "High"
+    },
+    {
+      "city": "Ambala",
+      "state": "Haryana",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Yamunanagar",
+      "state": "Haryana",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rewari",
+      "state": "Haryana",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bhiwani",
+      "state": "Haryana",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sirsa",
+      "state": "Haryana",
+      "pH_estimate": 7.9,
+      "pH_range": [7.5, 8.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jind",
+      "state": "Haryana",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kaithal",
+      "state": "Haryana",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kurukshetra",
+      "state": "Haryana",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Panchkula",
+      "state": "Haryana",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "High"
+    },
+    {
+      "city": "Palwal",
+      "state": "Haryana",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mahendragarh",
+      "state": "Haryana",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Moga",
+      "state": "Punjab",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mohali",
+      "state": "Punjab",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "High"
+    },
+    {
+      "city": "Hoshiarpur",
+      "state": "Punjab",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Pathankot",
+      "state": "Punjab",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kapurthala",
+      "state": "Punjab",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Faridkot",
+      "state": "Punjab",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sangrur",
+      "state": "Punjab",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Firozpur",
+      "state": "Punjab",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Gurdaspur",
+      "state": "Punjab",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Muktsar",
+      "state": "Punjab",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Barnala",
+      "state": "Punjab",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mansa",
+      "state": "Punjab",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Anand",
+      "state": "Gujarat",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Nadiad",
+      "state": "Gujarat",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Morbi",
+      "state": "Gujarat",
+      "pH_estimate": 7.9,
+      "pH_range": [7.5, 8.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Valsad",
+      "state": "Gujarat",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Vapi",
+      "state": "Gujarat",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Navsari",
+      "state": "Gujarat",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Veraval",
+      "state": "Gujarat",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Porbandar",
+      "state": "Gujarat",
+      "pH_estimate": 7.9,
+      "pH_range": [7.5, 8.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Godhra",
+      "state": "Gujarat",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bhuj",
+      "state": "Gujarat",
+      "pH_estimate": 8.0,
+      "pH_range": [7.6, 8.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ankleshwar",
+      "state": "Gujarat",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mehsana",
+      "state": "Gujarat",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Palanpur",
+      "state": "Gujarat",
+      "pH_estimate": 7.9,
+      "pH_range": [7.5, 8.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sikar",
+      "state": "Rajasthan",
+      "pH_estimate": 8.0,
+      "pH_range": [7.6, 8.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Alwar",
+      "state": "Rajasthan",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bharatpur",
+      "state": "Rajasthan",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Tonk",
+      "state": "Rajasthan",
+      "pH_estimate": 7.9,
+      "pH_range": [7.5, 8.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Pali",
+      "state": "Rajasthan",
+      "pH_estimate": 8.0,
+      "pH_range": [7.6, 8.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Barmer",
+      "state": "Rajasthan",
+      "pH_estimate": 8.3,
+      "pH_range": [7.9, 8.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Churu",
+      "state": "Rajasthan",
+      "pH_estimate": 8.2,
+      "pH_range": [7.8, 8.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ganganagar",
+      "state": "Rajasthan",
+      "pH_estimate": 7.9,
+      "pH_range": [7.5, 8.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hanumangarh",
+      "state": "Rajasthan",
+      "pH_estimate": 8.0,
+      "pH_range": [7.6, 8.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jhunjhunu",
+      "state": "Rajasthan",
+      "pH_estimate": 8.1,
+      "pH_range": [7.7, 8.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Nagaur",
+      "state": "Rajasthan",
+      "pH_estimate": 8.2,
+      "pH_range": [7.8, 8.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Beawar",
+      "state": "Rajasthan",
+      "pH_estimate": 7.9,
+      "pH_range": [7.5, 8.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kishangarh",
+      "state": "Rajasthan",
+      "pH_estimate": 7.9,
+      "pH_range": [7.5, 8.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mount Abu",
+      "state": "Rajasthan",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Chittorgarh",
+      "state": "Rajasthan",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sawai Madhopur",
+      "state": "Rajasthan",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rajasamand",
+      "state": "Rajasthan",
+      "pH_estimate": 7.9,
+      "pH_range": [7.5, 8.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Dungarpur",
+      "state": "Rajasthan",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Banswara",
+      "state": "Rajasthan",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bundi",
+      "state": "Rajasthan",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kurnool",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Anantapur",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kadapa",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ongole",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Nandyal",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Machilipatnam",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Adoni",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Tenali",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Proddatur",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Chittoor",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hindupur",
+      "state": "Andhra Pradesh",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Khammam",
+      "state": "Telangana",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mahbubnagar",
+      "state": "Telangana",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Nalgonda",
+      "state": "Telangana",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ramagundam",
+      "state": "Telangana",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Suryapet",
+      "state": "Telangana",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Miryalaguda",
+      "state": "Telangana",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Siddipet",
+      "state": "Telangana",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Adilabad",
+      "state": "Telangana",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sangareddy",
+      "state": "Telangana",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Medak",
+      "state": "Telangana",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Thanjavur",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Dindigul",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kanchipuram",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.6,
+      "pH_range": [6.2, 7.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Karur",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kumbakonam",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hosur",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Nagercoil",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Cuddalore",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.6,
+      "pH_range": [6.2, 7.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Pollachi",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rajapalayam",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sivakasi",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Pudukkottai",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Neyveli",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ambur",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.6,
+      "pH_range": [6.2, 7.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Palani",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ooty",
+      "state": "Tamil Nadu",
+      "pH_estimate": 5.9,
+      "pH_range": [5.5, 6.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kodaikanal",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.0,
+      "pH_range": [5.6, 6.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Tuticorin",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Nagapattinam",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Vaniyambadi",
+      "state": "Tamil Nadu",
+      "pH_estimate": 6.6,
+      "pH_range": [6.2, 7.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Tumkur",
+      "state": "Karnataka",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Davangere",
+      "state": "Karnataka",
+      "pH_estimate": 6.6,
+      "pH_range": [6.2, 7.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bellary",
+      "state": "Karnataka",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bijapur",
+      "state": "Karnataka",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Shimoga",
+      "state": "Karnataka",
+      "pH_estimate": 6.1,
+      "pH_range": [5.7, 6.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Raichur",
+      "state": "Karnataka",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hassan",
+      "state": "Karnataka",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mandya",
+      "state": "Karnataka",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Chitradurga",
+      "state": "Karnataka",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Udupi",
+      "state": "Karnataka",
+      "pH_estimate": 5.8,
+      "pH_range": [5.4, 6.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bidar",
+      "state": "Karnataka",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Karwar",
+      "state": "Karnataka",
+      "pH_estimate": 5.9,
+      "pH_range": [5.5, 6.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Chikmagalur",
+      "state": "Karnataka",
+      "pH_estimate": 6.0,
+      "pH_range": [5.6, 6.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kolar",
+      "state": "Karnataka",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Gadag",
+      "state": "Karnataka",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Alappuzha",
+      "state": "Kerala",
+      "pH_estimate": 5.5,
+      "pH_range": [5.1, 5.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Palakkad",
+      "state": "Kerala",
+      "pH_estimate": 5.9,
+      "pH_range": [5.5, 6.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Malappuram",
+      "state": "Kerala",
+      "pH_estimate": 5.8,
+      "pH_range": [5.4, 6.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kannur",
+      "state": "Kerala",
+      "pH_estimate": 5.7,
+      "pH_range": [5.3, 6.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kasaragod",
+      "state": "Kerala",
+      "pH_estimate": 5.7,
+      "pH_range": [5.3, 6.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kottayam",
+      "state": "Kerala",
+      "pH_estimate": 5.6,
+      "pH_range": [5.2, 6.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Pathanamthitta",
+      "state": "Kerala",
+      "pH_estimate": 5.6,
+      "pH_range": [5.2, 6.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Idukki",
+      "state": "Kerala",
+      "pH_estimate": 5.5,
+      "pH_range": [5.1, 5.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Wayanad",
+      "state": "Kerala",
+      "pH_estimate": 5.7,
+      "pH_range": [5.3, 6.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Munnar",
+      "state": "Kerala",
+      "pH_estimate": 5.5,
+      "pH_range": [5.1, 5.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Attingal",
+      "state": "Kerala",
+      "pH_estimate": 5.6,
+      "pH_range": [5.2, 6.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kayamkulam",
+      "state": "Kerala",
+      "pH_estimate": 5.5,
+      "pH_range": [5.1, 5.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Satna",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Dewas",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ratlam",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Katni",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Singrauli",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Burhanpur",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Khandwa",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Morena",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Vidisha",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Chhindwara",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Guna",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.5,
+      "pH_range": [7.1, 7.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Shivpuri",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mandsaur",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Neemuch",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Balaghat",
+      "state": "Madhya Pradesh",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bardhaman",
+      "state": "West Bengal",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Malda",
+      "state": "West Bengal",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kharagpur",
+      "state": "West Bengal",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Haldia",
+      "state": "West Bengal",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Krishnanagar",
+      "state": "West Bengal",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Raiganj",
+      "state": "West Bengal",
+      "pH_estimate": 6.6,
+      "pH_range": [6.2, 7.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Medinipur",
+      "state": "West Bengal",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jalpaiguri",
+      "state": "West Bengal",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Balurghat",
+      "state": "West Bengal",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Basirhat",
+      "state": "West Bengal",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bankura",
+      "state": "West Bengal",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Purulia",
+      "state": "West Bengal",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Darjeeling",
+      "state": "West Bengal",
+      "pH_estimate": 5.9,
+      "pH_range": [5.5, 6.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Alipurduar",
+      "state": "West Bengal",
+      "pH_estimate": 6.2,
+      "pH_range": [5.8, 6.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bilaspur",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bhilai",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Korba",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Durg",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rajnandgaon",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jagdalpur",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Raigarh",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ambikapur",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Dhamtari",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mahasamund",
+      "state": "Chhattisgarh",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Muzaffarpur",
+      "state": "Bihar",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Gaya",
+      "state": "Bihar",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bhagalpur",
+      "state": "Bihar",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Darbhanga",
+      "state": "Bihar",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bihar Sharif",
+      "state": "Bihar",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Arrah",
+      "state": "Bihar",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Begusarai",
+      "state": "Bihar",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Katihar",
+      "state": "Bihar",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Munger",
+      "state": "Bihar",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Chhapra",
+      "state": "Bihar",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Purnia",
+      "state": "Bihar",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Saharsa",
+      "state": "Bihar",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sasaram",
+      "state": "Bihar",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hajipur",
+      "state": "Bihar",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Dehri",
+      "state": "Bihar",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Siwan",
+      "state": "Bihar",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Motihari",
+      "state": "Bihar",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Nawada",
+      "state": "Bihar",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bagaha",
+      "state": "Bihar",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Buxar",
+      "state": "Bihar",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Dhanbad",
+      "state": "Jharkhand",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bokaro",
+      "state": "Jharkhand",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Deoghar",
+      "state": "Jharkhand",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Phusro",
+      "state": "Jharkhand",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hazaribagh",
+      "state": "Jharkhand",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Giridih",
+      "state": "Jharkhand",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ramgarh",
+      "state": "Jharkhand",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Medininagar",
+      "state": "Jharkhand",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Chirkunda",
+      "state": "Jharkhand",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Cuttack",
+      "state": "Odisha",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rourkela",
+      "state": "Odisha",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Brahmapur",
+      "state": "Odisha",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sambalpur",
+      "state": "Odisha",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Puri",
+      "state": "Odisha",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Balasore",
+      "state": "Odisha",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Baripada",
+      "state": "Odisha",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bhadrak",
+      "state": "Odisha",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jharsuguda",
+      "state": "Odisha",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jeypore",
+      "state": "Odisha",
+      "pH_estimate": 6.2,
+      "pH_range": [5.8, 6.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Barbil",
+      "state": "Odisha",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Paradip",
+      "state": "Odisha",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Angul",
+      "state": "Odisha",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rayagada",
+      "state": "Odisha",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Dibrugarh",
+      "state": "Assam",
+      "pH_estimate": 5.9,
+      "pH_range": [5.5, 6.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jorhat",
+      "state": "Assam",
+      "pH_estimate": 5.9,
+      "pH_range": [5.5, 6.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Silchar",
+      "state": "Assam",
+      "pH_estimate": 5.8,
+      "pH_range": [5.4, 6.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Tezpur",
+      "state": "Assam",
+      "pH_estimate": 5.9,
+      "pH_range": [5.5, 6.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Nagaon",
+      "state": "Assam",
+      "pH_estimate": 5.9,
+      "pH_range": [5.5, 6.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Tinsukia",
+      "state": "Assam",
+      "pH_estimate": 5.9,
+      "pH_range": [5.5, 6.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bongaigaon",
+      "state": "Assam",
+      "pH_estimate": 5.8,
+      "pH_range": [5.4, 6.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Diphu",
+      "state": "Assam",
+      "pH_estimate": 5.8,
+      "pH_range": [5.4, 6.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Goalpara",
+      "state": "Assam",
+      "pH_estimate": 5.8,
+      "pH_range": [5.4, 6.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Dhubri",
+      "state": "Assam",
+      "pH_estimate": 5.9,
+      "pH_range": [5.5, 6.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Haridwar",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rishikesh",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.6,
+      "pH_range": [6.2, 7.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Roorkee",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Haldwani",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Rudrapur",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Pithoragarh",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.2,
+      "pH_range": [5.8, 6.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Nainital",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Almora",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.2,
+      "pH_range": [5.8, 6.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mussoorie",
+      "state": "Uttarakhand",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Solan",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Mandi",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kullu",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.2,
+      "pH_range": [5.8, 6.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Manali",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.1,
+      "pH_range": [5.7, 6.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Dharamshala",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.2,
+      "pH_range": [5.8, 6.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Hamirpur",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Una",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.5,
+      "pH_range": [6.1, 6.9],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bilaspur",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.4,
+      "pH_range": [6.0, 6.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Chamba",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.2,
+      "pH_range": [5.8, 6.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Palampur",
+      "state": "Himachal Pradesh",
+      "pH_estimate": 6.3,
+      "pH_range": [5.9, 6.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kathua",
+      "state": "Jammu and Kashmir",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Udhampur",
+      "state": "Jammu and Kashmir",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Anantnag",
+      "state": "Jammu and Kashmir",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Baramulla",
+      "state": "Jammu and Kashmir",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sopore",
+      "state": "Jammu and Kashmir",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Leh",
+      "state": "Ladakh",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Low"
+    },
+    {
+      "city": "Kargil",
+      "state": "Ladakh",
+      "pH_estimate": 7.7,
+      "pH_range": [7.3, 8.1],
+      "confidence": "Low"
+    },
+    {
+      "city": "Agartala",
+      "state": "Tripura",
+      "pH_estimate": 5.8,
+      "pH_range": [5.4, 6.2],
+      "confidence": "Low"
+    },
+    {
+      "city": "Port Blair",
+      "state": "Andaman and Nicobar Islands",
+      "pH_estimate": 5.7,
+      "pH_range": [5.3, 6.1],
+      "confidence": "Low"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "pH_estimate": 6.6,
+      "pH_range": [6.2, 7.0],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Karaikal",
+      "state": "Puducherry",
+      "pH_estimate": 6.7,
+      "pH_range": [6.3, 7.1],
+      "confidence": "Low"
+    },
+    {
+      "city": "Yanam",
+      "state": "Puducherry",
+      "pH_estimate": 6.8,
+      "pH_range": [6.4, 7.2],
+      "confidence": "Low"
+    },
+    {
+      "city": "Mahe",
+      "state": "Puducherry",
+      "pH_estimate": 5.8,
+      "pH_range": [5.4, 6.2],
+      "confidence": "Low"
+    },
+    {
+      "city": "Daman",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Low"
+    },
+    {
+      "city": "Diu",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "pH_estimate": 7.6,
+      "pH_range": [7.2, 8.0],
+      "confidence": "Low"
+    },
+    {
+      "city": "Silvassa",
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Low"
+    },
+    {
+      "city": "Kavaratti",
+      "state": "Lakshadweep",
+      "pH_estimate": 7.8,
+      "pH_range": [7.4, 8.2],
+      "confidence": "Low"
+    },
+    {
+      "city": "Solapur",
+      "state": "Maharashtra",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Kolhapur",
+      "state": "Maharashtra",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Amravati",
+      "state": "Maharashtra",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Akola",
+      "state": "Maharashtra",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Latur",
+      "state": "Maharashtra",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ahmednagar",
+      "state": "Maharashtra",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jalgaon",
+      "state": "Maharashtra",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Nanded",
+      "state": "Maharashtra",
+      "pH_estimate": 7.2,
+      "pH_range": [6.8, 7.6],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Sangli",
+      "state": "Maharashtra",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Parbhani",
+      "state": "Maharashtra",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Yavatmal",
+      "state": "Maharashtra",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Wardha",
+      "state": "Maharashtra",
+      "pH_estimate": 7.1,
+      "pH_range": [6.7, 7.5],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Chandrapur",
+      "state": "Maharashtra",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Gondia",
+      "state": "Maharashtra",
+      "pH_estimate": 6.9,
+      "pH_range": [6.5, 7.3],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Ichalkaranji",
+      "state": "Maharashtra",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Dhule",
+      "state": "Maharashtra",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Satara",
+      "state": "Maharashtra",
+      "pH_estimate": 7.0,
+      "pH_range": [6.6, 7.4],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Bid",
+      "state": "Maharashtra",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Osmanabad",
+      "state": "Maharashtra",
+      "pH_estimate": 7.4,
+      "pH_range": [7.0, 7.8],
+      "confidence": "Medium"
+    },
+    {
+      "city": "Jalna",
+      "state": "Maharashtra",
+      "pH_estimate": 7.3,
+      "pH_range": [6.9, 7.7],
+      "confidence": "Medium"
     }
   ]
 }
